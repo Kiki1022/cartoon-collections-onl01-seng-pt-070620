@@ -11,6 +11,7 @@ end
 
 def long_planeteer_calls(short_words)
   short_words.collect {|string| string.length} 
+  yield (short_words[string])
   if (string.length < 4 )
     false 
   else
