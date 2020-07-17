@@ -10,7 +10,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(short_words)
-  short_words.collect {|string| string.length} 
+  #short_words.collect {|string| string.length} 
   yield (short_words[string])
   if (string.length < 4 )
     false 
