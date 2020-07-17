@@ -11,13 +11,8 @@ end
 
 def long_planeteer_calls(short_words)
   
-  short_words.any? {|string| string.length} 
+  short_words.any? {|string| string.length> 4} 
   
-  if (string.length > 4 )
-    false 
-  else
-    true 
- end   
 end
 
 def find_the_cheese# code an argument here
